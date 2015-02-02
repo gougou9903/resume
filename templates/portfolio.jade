@@ -1,2 +1,5 @@
 h3 Portfolio
-p (todo)
+	each me in contents['portfolio.json'].metadata
+		div.row
+			div.five.columns
+				img(src='images/' + me.image)

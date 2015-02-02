@@ -1,2 +1,11 @@
 h3 Honors
-p (todo)
+table.u-full-width
+  thead
+    tr
+      th Name
+      th Time Period
+  tbody
+  each hornor in contents['hornors.json'].metadata     
+    tr
+      td= hornor.name
+      td= hornor.time

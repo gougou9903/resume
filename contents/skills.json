@@ -1,1 +1,7 @@
-[]
+{
+	"skill1" : "C language",
+	"skill2" : "C++ language",
+	"skill3" : "java language",
+	"skill4" : "Assembly Language",
+	"skill5" : "VHDL"
+}
